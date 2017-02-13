@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C76CDC971E515E830081FA58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDC961E515E830081FA58 /* main.m */; };
+		C76CDC9A1E515E830081FA58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDC991E515E830081FA58 /* AppDelegate.m */; };
+		C76CDC9D1E515E830081FA58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDC9C1E515E830081FA58 /* ViewController.m */; };
+		C76CDCA01E515E830081FA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76CDC9E1E515E830081FA58 /* Main.storyboard */; };
+		C76CDCA21E515E830081FA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76CDCA11E515E830081FA58 /* Assets.xcassets */; };
+		C76CDCA51E515E830081FA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76CDCA31E515E830081FA58 /* LaunchScreen.storyboard */; };
+		C76CDCB01E515E830081FA58 /* YJ_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDCAF1E515E830081FA58 /* YJ_______Tests.m */; };
+		C76CDCBB1E515E830081FA58 /* YJ_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDCBA1E515E830081FA58 /* YJ_______UITests.m */; };
+		C76CDCCA1E515E990081FA58 /* Animation_View.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDCC91E515E990081FA58 /* Animation_View.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C76CDCAC1E515E830081FA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76CDC8A1E515E830081FA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76CDC911E515E830081FA58;
+			remoteInfo = "YJ_粒子动画效果";
+		};
+		C76CDCB71E515E830081FA58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C76CDC8A1E515E830081FA58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C76CDC911E515E830081FA58;
+			remoteInfo = "YJ_粒子动画效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C76CDC921E515E830081FA58 /* YJ_粒子动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YJ_粒子动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76CDC961E515E830081FA58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76CDC981E515E830081FA58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76CDC991E515E830081FA58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76CDC9B1E515E830081FA58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C76CDC9C1E515E830081FA58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C76CDC9F1E515E830081FA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76CDCA11E515E830081FA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76CDCA41E515E830081FA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C76CDCA61E515E830081FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76CDCAB1E515E830081FA58 /* YJ_粒子动画效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YJ_粒子动画效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76CDCAF1E515E830081FA58 /* YJ_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YJ_______Tests.m"; sourceTree = "<group>"; };
+		C76CDCB11E515E830081FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76CDCB61E515E830081FA58 /* YJ_粒子动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YJ_粒子动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76CDCBA1E515E830081FA58 /* YJ_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YJ_______UITests.m"; sourceTree = "<group>"; };
+		C76CDCBC1E515E830081FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76CDCC81E515E990081FA58 /* Animation_View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation_View.h; sourceTree = "<group>"; };
+		C76CDCC91E515E990081FA58 /* Animation_View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation_View.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76CDC8F1E515E830081FA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCA81E515E830081FA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCB31E515E830081FA58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76CDC891E515E830081FA58 = {
+			isa = PBXGroup;
+			children = (
+				C76CDC941E515E830081FA58 /* YJ_粒子动画效果 */,
+				C76CDCAE1E515E830081FA58 /* YJ_粒子动画效果Tests */,
+				C76CDCB91E515E830081FA58 /* YJ_粒子动画效果UITests */,
+				C76CDC931E515E830081FA58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76CDC931E515E830081FA58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDC921E515E830081FA58 /* YJ_粒子动画效果.app */,
+				C76CDCAB1E515E830081FA58 /* YJ_粒子动画效果Tests.xctest */,
+				C76CDCB61E515E830081FA58 /* YJ_粒子动画效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76CDC941E515E830081FA58 /* YJ_粒子动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDC9B1E515E830081FA58 /* ViewController.h */,
+				C76CDC9C1E515E830081FA58 /* ViewController.m */,
+				C76CDCC81E515E990081FA58 /* Animation_View.h */,
+				C76CDCC91E515E990081FA58 /* Animation_View.m */,
+				C76CDCA11E515E830081FA58 /* Assets.xcassets */,
+				C76CDCCB1E515E9F0081FA58 /* Other */,
+				C76CDC951E515E830081FA58 /* Supporting Files */,
+			);
+			path = "YJ_粒子动画效果";
+			sourceTree = "<group>";
+		};
+		C76CDC951E515E830081FA58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDC961E515E830081FA58 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76CDCAE1E515E830081FA58 /* YJ_粒子动画效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDCAF1E515E830081FA58 /* YJ_______Tests.m */,
+				C76CDCB11E515E830081FA58 /* Info.plist */,
+			);
+			path = "YJ_粒子动画效果Tests";
+			sourceTree = "<group>";
+		};
+		C76CDCB91E515E830081FA58 /* YJ_粒子动画效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDCBA1E515E830081FA58 /* YJ_______UITests.m */,
+				C76CDCBC1E515E830081FA58 /* Info.plist */,
+			);
+			path = "YJ_粒子动画效果UITests";
+			sourceTree = "<group>";
+		};
+		C76CDCCB1E515E9F0081FA58 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDC981E515E830081FA58 /* AppDelegate.h */,
+				C76CDC991E515E830081FA58 /* AppDelegate.m */,
+				C76CDC9E1E515E830081FA58 /* Main.storyboard */,
+				C76CDCA31E515E830081FA58 /* LaunchScreen.storyboard */,
+				C76CDCA61E515E830081FA58 /* Info.plist */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76CDC911E515E830081FA58 /* YJ_粒子动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76CDCBF1E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果" */;
+			buildPhases = (
+				C76CDC8E1E515E830081FA58 /* Sources */,
+				C76CDC8F1E515E830081FA58 /* Frameworks */,
+				C76CDC901E515E830081FA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YJ_粒子动画效果";
+			productName = "YJ_粒子动画效果";
+			productReference = C76CDC921E515E830081FA58 /* YJ_粒子动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C76CDCAA1E515E830081FA58 /* YJ_粒子动画效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76CDCC21E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果Tests" */;
+			buildPhases = (
+				C76CDCA71E515E830081FA58 /* Sources */,
+				C76CDCA81E515E830081FA58 /* Frameworks */,
+				C76CDCA91E515E830081FA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76CDCAD1E515E830081FA58 /* PBXTargetDependency */,
+			);
+			name = "YJ_粒子动画效果Tests";
+			productName = "YJ_粒子动画效果Tests";
+			productReference = C76CDCAB1E515E830081FA58 /* YJ_粒子动画效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C76CDCB51E515E830081FA58 /* YJ_粒子动画效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76CDCC51E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果UITests" */;
+			buildPhases = (
+				C76CDCB21E515E830081FA58 /* Sources */,
+				C76CDCB31E515E830081FA58 /* Frameworks */,
+				C76CDCB41E515E830081FA58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C76CDCB81E515E830081FA58 /* PBXTargetDependency */,
+			);
+			name = "YJ_粒子动画效果UITests";
+			productName = "YJ_粒子动画效果UITests";
+			productReference = C76CDCB61E515E830081FA58 /* YJ_粒子动画效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76CDC8A1E515E830081FA58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = yangjian;
+				TargetAttributes = {
+					C76CDC911E515E830081FA58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C76CDCAA1E515E830081FA58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C76CDC911E515E830081FA58;
+					};
+					C76CDCB51E515E830081FA58 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C76CDC911E515E830081FA58;
+					};
+				};
+			};
+			buildConfigurationList = C76CDC8D1E515E830081FA58 /* Build configuration list for PBXProject "YJ_粒子动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76CDC891E515E830081FA58;
+			productRefGroup = C76CDC931E515E830081FA58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76CDC911E515E830081FA58 /* YJ_粒子动画效果 */,
+				C76CDCAA1E515E830081FA58 /* YJ_粒子动画效果Tests */,
+				C76CDCB51E515E830081FA58 /* YJ_粒子动画效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76CDC901E515E830081FA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CDCA51E515E830081FA58 /* LaunchScreen.storyboard in Resources */,
+				C76CDCA21E515E830081FA58 /* Assets.xcassets in Resources */,
+				C76CDCA01E515E830081FA58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCA91E515E830081FA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCB41E515E830081FA58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76CDC8E1E515E830081FA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CDC9D1E515E830081FA58 /* ViewController.m in Sources */,
+				C76CDCCA1E515E990081FA58 /* Animation_View.m in Sources */,
+				C76CDC9A1E515E830081FA58 /* AppDelegate.m in Sources */,
+				C76CDC971E515E830081FA58 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCA71E515E830081FA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CDCB01E515E830081FA58 /* YJ_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C76CDCB21E515E830081FA58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CDCBB1E515E830081FA58 /* YJ_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C76CDCAD1E515E830081FA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76CDC911E515E830081FA58 /* YJ_粒子动画效果 */;
+			targetProxy = C76CDCAC1E515E830081FA58 /* PBXContainerItemProxy */;
+		};
+		C76CDCB81E515E830081FA58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C76CDC911E515E830081FA58 /* YJ_粒子动画效果 */;
+			targetProxy = C76CDCB71E515E830081FA58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C76CDC9E1E515E830081FA58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76CDC9F1E515E830081FA58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C76CDCA31E515E830081FA58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76CDCA41E515E830081FA58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76CDCBD1E515E830081FA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C76CDCBE1E515E830081FA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C76CDCC01E515E830081FA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YJ_粒子动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76CDCC11E515E830081FA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "YJ_粒子动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C76CDCC31E515E830081FA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YJ_粒子动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJ_粒子动画效果.app/YJ_粒子动画效果";
+			};
+			name = Debug;
+		};
+		C76CDCC41E515E830081FA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "YJ_粒子动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YJ_粒子动画效果.app/YJ_粒子动画效果";
+			};
+			name = Release;
+		};
+		C76CDCC61E515E830081FA58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YJ_粒子动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YJ_粒子动画效果";
+			};
+			name = Debug;
+		};
+		C76CDCC71E515E830081FA58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "YJ_粒子动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yang.YJ-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "YJ_粒子动画效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76CDC8D1E515E830081FA58 /* Build configuration list for PBXProject "YJ_粒子动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CDCBD1E515E830081FA58 /* Debug */,
+				C76CDCBE1E515E830081FA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76CDCBF1E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CDCC01E515E830081FA58 /* Debug */,
+				C76CDCC11E515E830081FA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76CDCC21E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CDCC31E515E830081FA58 /* Debug */,
+				C76CDCC41E515E830081FA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C76CDCC51E515E830081FA58 /* Build configuration list for PBXNativeTarget "YJ_粒子动画效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CDCC61E515E830081FA58 /* Debug */,
+				C76CDCC71E515E830081FA58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76CDC8A1E515E830081FA58 /* Project object */;
+}
